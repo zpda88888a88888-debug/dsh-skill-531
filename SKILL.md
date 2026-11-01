@@ -1,6 +1,17 @@
 ---
+# --- DeepSeek Harness 必需字段 ---
 name: "531"
 description: "Use when 用户说 /531、用 531 读、总结成 531、531 一下，或贴来一篇文章/文档要求结构化汇总、精读、提炼要点。把单一文本压缩成固定三段——5 句话摘要、3 个核心洞察（语义按文本类型自动切换：使用约束/核心洞察/立场前提/叙事线索）、1 句话总结。"
+
+# --- SkillHub 必需 / 建议字段 ---
+slug: "531-summary"
+version: "1.0.0"
+displayName: "531 · 五句话读完，三句话想透，一句话记住"
+summary: "把一篇文章压缩成固定三段：5 句话摘要 + 3 个核心洞察（语义随文本类型切换）+ 1 句话总结"
+tags: [摘要, 精读, 总结, 读书笔记, summarization, reading-notes, structured-output]
+license: "MIT"
+homepage: "https://github.com/zpda88888a88888-debug/dsh-skill-531"
+
 metadata:
   tags: [summarization, reading, structured-output, "531", 摘要, 精读, 读书笔记]
 ---
