@@ -31,14 +31,14 @@ skill 是纯文件，没有依赖，装 = 放到 DSH 会扫描的目录。
 ### 方式一：用户级（所有项目可用，推荐）
 
 ```bash
-git clone https://github.com/<your-name>/dsh-skill-531.git ~/.dsh/skills/531
+git clone https://github.com/zpda88888a88888-debug/dsh-skill-531.git ~/.dsh/skills/531
 ```
 
 ### 方式二：项目级（跟着仓库走，团队共享）
 
 ```bash
 mkdir -p .dsh/skills
-git clone https://github.com/<your-name>/dsh-skill-531.git .dsh/skills/531
+git clone https://github.com/zpda88888a88888-debug/dsh-skill-531.git .dsh/skills/531
 ```
 
 项目级目录优先级高于用户级；把 `.dsh/skills/` 提交进 git，克隆仓库的人就自动拥有这个 skill。
@@ -47,7 +47,7 @@ git clone https://github.com/<your-name>/dsh-skill-531.git .dsh/skills/531
 
 ```bash
 mkdir -p ~/.dsh/skills/531
-curl -fsSL https://raw.githubusercontent.com/<your-name>/dsh-skill-531/main/SKILL.md \
+curl -fsSL https://raw.githubusercontent.com/zpda88888a88888-debug/dsh-skill-531/main/SKILL.md \
   -o ~/.dsh/skills/531/SKILL.md
 ```
 
