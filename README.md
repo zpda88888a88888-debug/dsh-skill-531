@@ -53,10 +53,10 @@ curl -fsSL https://raw.githubusercontent.com/zpda88888a88888-debug/dsh-skill-531
 
 ### 方式四：离线 zip（内网 / 没有 git）
 
-拿到 `531-skill-v1.0.0.zip` 后：
+拿到 `531-skill.zip` 后：
 
 ```bash
-unzip 531-skill-v1.0.0.zip -d ~/.dsh/skills/
+unzip 531-skill.zip -d ~/.dsh/skills/
 ```
 
 zip 内已带 `531/` 前缀，解压即可，不用手动建目录。
@@ -126,7 +126,7 @@ zip 内已带 `531/` 前缀，解压即可，不用手动建目录。
 .
 ├── SKILL.md      # skill 本体（frontmatter + 指令）
 ├── README.md     # 本文件
-├── LICENSE
+├── LICENSE       # MIT 许可证全文
 └── .gitignore
 ```
 
